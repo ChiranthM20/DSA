@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
         Set<String> blocked = new HashSet<>();
